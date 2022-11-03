@@ -1,0 +1,47 @@
+body {
+    font-family: consolas;
+    color:#075E54;
+}
+ 
+#VideoSea {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;    
+    z-index: 0;
+    background-size: cover;
+    background-size: contain;
+}
+
+.Header {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100000;
+}
+
+.RemainingTime {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1000000;
+}
+
+.Month-Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Numbers {
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.Dates {
+    font-size: 23px;
+    font-weight: bold;
+}
